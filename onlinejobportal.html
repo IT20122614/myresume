@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<header>
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</header>
+
+<body>
+            
+            <div>
+                <ul>
+                    <br><br><br>
+                    <a href="Home.html"><img class="logoimg" src="logo.png" alt="logo"></a>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="MySkills.html">My Skills</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <br><br><br><br><br><br><br>
+            
+    <div class="wrapper">
+        <h1  class="normalfont1">Online Job Portal | My first project | 1st year University project</h1>
+        <h2 class="styleh2tech">Using Technologies</h2>
+        <div class="dvclstech">
+            <ol>
+                <li>HTML</li><br/>
+                <li>CSS</li><br/>
+                <li>JavaScript</li><br/>
+                <li>Php</li><br/>
+                <li>SQL</li><br/>
+                
+            </ol>
+
+        </div>
+        <h2 class="styleh2tech">My part</h2>
+        <div class="dvclstech">
+            <ol>
+                <li>Sign in </li><br/>
+                <li>Sign up</li><br/>
+                <li>profile</li><br/>
+                <li>Income Report Generate</li><br/>
+                <li>Update | Delete Profile</li><br/>
+                
+            </ol>
+
+        </div>
+        <h2 class="styleh2tech">Project Description</h2>
+        <div class="dvclstech">
+            <p>This is a new online job portal website called GETJOBS.LK. Here a visitor can be either an employer or a job seeker. Visitors can search for vacancies and he can view job vacancies. If the vacancy that visitors looking for is not available anymore system notifies the visitor. Visitors can register for the system. If the visitor is an employer, he/she should enter payment details for the monthly charges while the registration. Then the system validates the payment details. Then visitors get an activation code via an email after visitors can enter that code activate his/her account.<br><br>
+                A registered job seeker can log in to the system. Also, he can edit his/her profile details. A registered job seeker can apply for a job that he/she is interested in he/she can view the job description before applying for the job. He/she can fill the application and submit it with a CV. If there are any errors or invalid data, the system gives him/her an error message. Otherwise system display “application submission success”. A registered job seeker can see employer details and he/she can contact them via a call or an email if he/she is having any issue.<br><br>
+                A registered employer also can log in to the system and he/she can edit their profile details as well. A registered employer can post an ad and he/she can modify them as well. Before posting an ad he/she must pay for the ad otherwise system won’t allow posting the ad. Moreover, he/she can view the applications that job seekers have submitted. If he/she is satisfied with the job seeker he/she can send a message saying, “your application was accepted”. Then he/she can give an interview conference link (the interview is conducting via live conference) via an email.<br><br>
+                The system administrator can approve the job vacancies and employers. Also, he/she can delete a vacancy or an employer from the system. And he/she can give the reason also. He/she is the one who maintains the website. Admin can get income reports through the system. He/she can get it as monthly income report or ad income report.<br><br>
+            </p>
+
+        </div>
+        <h2 class="styleh2tech">Project Github Link</h2>
+        <div class="dvclstech">
+            
+                <a class="linkC" href="#">https://www.linkedin.com/in/madushan-s-h-k-7198631a6/</a>
+
+        </div>
+            
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 7</div>
+      <img class="photossizemake" src="images/home.png">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 7</div>
+      <img class="photossizemake" src="images/signup.png">
+      <div class="text">Caption Two</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 7</div>
+        <img class="photossizemake" src="images/login.png">
+        <div class="text">Caption Text</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 7</div>
+        <img class="photossizemake" src="images/prof.png">
+        <div class="text">Caption Text</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 7</div>
+        <img class="photossizemake" src="images/editp.png">
+        <div class="text">Caption Text</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 7</div>
+        <img class="photossizemake" src="images/loginupadete.png">
+        <div class="text">Caption Text</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 7</div>
+        <img class="photossizemake" src="images/report.png">
+        <div class="text">Caption Text</div>
+      </div>
+    
+    
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+      <span class="dot" onclick="currentSlide(6)"></span> 
+      <span class="dot" onclick="currentSlide(7)"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+    </div>
+    
+</body>
+
+</html>
